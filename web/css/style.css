@@ -1,0 +1,314 @@
+
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src:url(../fonts/RobotoSlab-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src:url(../fonts/Raleway-Regular.ttf) format('truetype');
+}
+html, body{
+    font-size: 100%;
+
+}
+body {
+	font-size: 100%;
+	font-family: 'RobotoSlab-Regular';
+}
+body a{
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+
+.arkaplan-top{
+	background:url(../images/arkaplan.jpg) no-repeat;
+    image-orientation: from-image;
+    margin: 0px;
+    padding: 0px;
+	min-height: 650px;
+	background-size:contain;
+	-webkit-background-size:100%;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	position:center;
+}
+.arkaplan-text {
+	position: absolute;
+	top: 32%;
+	left: 33%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.arkaplan-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+.arkaplan-text h1{
+	font-size:1.5em;
+	margin:20px 0 0 0;
+	color:#190608;
+}
+.deneme-text{
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.deneme-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+
+.deneme1-text{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.deneme1-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+
+.deneme2-text{
+	position: absolute;
+	top: 45%;
+	left: 55%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.deneme2-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+.deneme3-text{
+	position: absolute;
+	top: 45%;
+	left: 15%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.deneme3-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+
+.arkaplan-btn{
+    margin-top:8%;
+}
+.arkaplan-btn a {
+    color: blue;
+    padding: 5px 13px;
+    border: 1px solid #190608;
+    font-size: 13px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-family: 'Raleway-Regular';
+}
+.arkaplan-btn a:hover{
+    background: #190608;
+    color:#fff;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+.arkaplan1-text {
+	position: absolute;
+	top: 32%;
+	left: 33%;
+	width: 30%;
+	padding: 2em 0px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.76);
+}
+.arkaplan1-text h2 {
+	font-size: 15px;
+	border-bottom: 1px solid #190608;
+	color: #190608;
+	padding-bottom: 2px;
+	width: 28%;
+	margin: 0 auto;
+	font-family: 'Raleway-Regular';
+}
+.arkaplan1-text h1{
+	font-size:1.5em;
+	margin:20px 0 0 0;
+	color:#190608;
+}
+
+.deneme-btn{
+	margin-top:8%;
+}
+.deneme-btn a {
+	color: blue;
+	padding: 5px 13px;
+	border: 1px solid #190608;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-family: 'Raleway-Regular';
+}
+.deneme-btn a:hover{
+	background: #190608;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.deneme1-btn{
+	margin-top:8%;
+}
+.deneme1-btn a {
+	color: blue;
+	padding: 5px 13px;
+	border: 1px solid #190608;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-family: 'Raleway-Regular';
+}
+.deneme1-btn a:hover{
+	background: #190608;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.deneme2-btn{
+	margin-top:8%;
+}
+.deneme2-btn a {
+	color: blue;
+	padding: 5px 13px;
+	border: 1px solid #190608;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-family: 'Raleway-Regular';
+}
+.deneme2-btn a:hover{
+	background: #190608;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.deneme3-btn{
+	margin-top:8%;
+}
+.deneme3-btn a {
+	color: blue;
+	padding: 5px 13px;
+	border: 1px solid #190608;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-family: 'Raleway-Regular';
+}
+.deneme3-btn a:hover{
+	background: #190608;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+
+/*footer kısmı*/
+.footer{
+	padding:2em 0px;
+	box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+	text-align:center;
+}
+.footer-text p{
+	font-size:15px;
+	color:#999;
+}
+.footer-text p a{
+	color:#999;
+}
+.footer-text p a:hover{
+	color:#190608;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+/*footer bitiş*/
